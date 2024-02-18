@@ -5,18 +5,28 @@
   "main": "index.ts",
   "scripts": {
     "build": "webpack --mode=production",
-    "start": "webpack-cli serve --mode development"
+    "start": "webpack-cli serve --mode development",
+    "lint-fix": "eslint --fix \"./src/**/*.{js,ts}\" && prettier --write \"./src/**/*.{js,ts}\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.56.0",
     "ts-loader": "^9.5.1",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
     "typescript": "^5.3.3",
     "webpack": "^5.90.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.2"
   },
-  "dependencies": {
-    "tsconfig-paths-webpack-plugin": "^4.1.0"
+  "huskey": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "\"./src/**/*.{js,ts}\"": [
+      "npm run lint-fix"
+    ]
   }
 }
