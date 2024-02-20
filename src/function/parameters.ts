@@ -1,28 +1,28 @@
-// ƒIƒvƒVƒ‡ƒ“ƒpƒ‰ƒ[ƒ^[‚ðŽ‚ÂŠÖ” ?:ƒIƒvƒVƒ‡ƒiƒ‹
+// ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ÂŠÖï¿½ ?:ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½iï¿½ï¿½
 export const isUserSignedIn = (userId: string, username?: string): boolean => {
-    if (userId === 'ABC') {
-        console.log("parameter sample1:¬Œ÷", username);
-        return true;
-    } else {
-        console.log("parameter sample2:Ž¸”s");
-        return false;
-    }
+  if (userId === 'ABC') {
+    console.log('parameter sample1:ï¿½ï¿½ï¿½ï¿½', username)
+    return true
+  } else {
+    console.log('parameter sample2:ï¿½ï¿½ï¿½s')
+    return false
+  }
 }
 
-// ƒfƒtƒHƒ‹ƒgƒpƒ‰ƒ[ƒ^[‚ðŽ‚ÂŠÖ”
-export const isUserSignedIn2 = (userId: string, username: string = "NO_NAME"): boolean => {
-    if (userId === 'ABC') {
-        console.log("parameter sample1:¬Œ÷", username);
-        return true;
-    } else {
-        console.log("parameter sample2:Ž¸”s");
-        return false;
-    }
+// ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ÂŠÖï¿½
+export const isUserSignedIn2 = (userId: string, username: string = 'NO_NAME'): boolean => {
+  if (userId === 'ABC') {
+    console.log('parameter sample1:ï¿½ï¿½ï¿½ï¿½', username)
+    return true
+  } else {
+    console.log('parameter sample2:ï¿½ï¿½ï¿½s')
+    return false
+  }
 }
 
-// ƒŒƒXƒgƒpƒ‰ƒ[ƒ^[‚ðŽ‚ÂŠÖ”
+// ï¿½ï¿½ï¿½Xï¿½gï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ÂŠÖï¿½
 export const sumProductsPrice = (...productsPrice: number[]): number => {
-    return productsPrice.reduce((prevTotal, productPrice) => {
-        return prevTotal + productPrice;
-    }, 0)
+  return productsPrice.reduce((prevTotal, productPrice) => {
+    return prevTotal + productPrice
+  }, 0)
 }

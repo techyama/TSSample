@@ -1,35 +1,31 @@
-// ƒAƒ[ŠÖ”’è‹`
+// ã‚¢ãƒ­ãƒ¼é–¢æ•°
 export const logMessage = (message: string): void => {
-    console.log(message);
+    console.log(message)
 }
-// ƒAƒ[ŠÖ”‚ÌÈ—ªŽ®
-export const logMessage2 = (message: string): void => console.log(message);
+// ã‚¢ãƒ­ãƒ¼é–¢æ•°(çœç•¥è¨˜æ³•)
+export const logMessage2 = (message: string): void => console.log(message)
 
-// –¼‘O•t‚«ŠÖ”
+// åå‰ä»˜ãé–¢æ•°
 export function logMessage3(message: string): void {
-    console.log(message);
+    console.log(message)
 }
 
-// ŠÖ”Ž®
 export const logMessage4 = function (message: string): void {
-    console.log(message);
+    console.log(message)
 }
 
-// í‚É—áŠO‚ð”­¶‚·‚é‚Ì‚Å–ß‚è’l‚Ínever
 export const alwatsThrowError = (message: string): never => {
-    throw new Error(message);
+    throw new Error(message)
 }
 
-// ŒÄ‚Ño‚µƒVƒOƒlƒ`ƒƒ(È—ª‹L–@)React‚Åprops‚ð“n‚·‚Æ‚«‚É‚æ‚­Žg‚í‚ê‚é
 type Logmessage = (message: string) => void
 export const logMessage5: Logmessage = (message) => {
-    console.log(message);
+    console.log(message)
 }
 
-// Š®‘S‚ÈŒÄ‚Ño‚µƒVƒOƒlƒ`ƒƒ
 type FullLogMessage = {
     (message: string): void
 }
 export const logmessage6: FullLogMessage = (message: string) => {
-    console.log(message);
+    console.log(message)
 }
