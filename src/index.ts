@@ -8,11 +8,10 @@
 // import { primitiveSample } from "./basic";
 // primitiveSample();
 
-import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from './function/parameters'
-import { logMessage } from './function/basic'
+// import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from './function/parameters'
+// import { logMessage } from './function/basic'
 
-logMessage('test')
-isUserSignedIn('ABC')
-isUserSignedIn('DEF')
-isUserSignedIn2('ABC')
-console.log(sumProductsPrice(100, 200, 300, 400, 500))
+// import objectSample from './object/object'
+
+import aliasSample from './object/alias'
+aliasSample()
