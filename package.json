@@ -23,8 +23,6 @@
     "webpack-dev-server": "^5.0.2"
   },
   "lint-staged": {
-    "\"./src/**/*.{js,ts}\"": [
-      "echo test"
-    ]
+    "\"./src/**/*.{js,ts}\"": "npm run lint-fix"
   }
 }
