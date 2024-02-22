@@ -16,6 +16,9 @@
 // import aliasSample from './object/alias'
 
 // import arraySample from "./array/array";
-import tupleSample from "./array/tuple";
+// import tupleSample from './array/tuple'
 
-tupleSample();
+// import genericsBasicSample from "./generics/basic"
+import genericsAdvancedSample from "./generics/advanced";
+
+genericsAdvancedSample();
