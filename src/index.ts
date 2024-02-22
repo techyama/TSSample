@@ -13,5 +13,9 @@
 
 // import objectSample from './object/object'
 
-import aliasSample from './object/alias'
-aliasSample()
+// import aliasSample from './object/alias'
+
+// import arraySample from "./array/array";
+import tupleSample from "./array/tuple";
+
+tupleSample();
