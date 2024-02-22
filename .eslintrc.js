@@ -3,22 +3,22 @@ module.exports = {
         browser: true,
         es6: true
     },
-    //pretter‚Ìİ’è‚ÍÅŒã‚É
+    //pretterã¯ä¸€ç•ªæœ€å¾Œã«è¨˜è¿°
     extends: [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "prettier"
     ],
     plugins: ["@typescript-eslint"],
-    //TypeScript‚ğ‰ğÍ‚·‚éparser‚ğw’è
+    //TypeScriptã‚’è§£æã™ã‚‹parserã‚’æŒ‡å®š
     parser: "@typescript-eslint/parser",
     parserOptions: {
         "sourceType": "module",
-        //tsconfig.json‚ÌƒpƒX‚ğw’è
+        //tsconfig.jsonã®ãƒ‘ã‚¹ã‚’æŒ‡å®š
         "project": "./tsconfig.json"
     },
-    //ƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚ğƒ‹[ƒgƒfƒBƒŒƒNƒgƒŠ‚Æ‚·‚é
-    //false‚¾‚Æeƒtƒ@ƒCƒ‹‚Éeslint‚Ìİ’èƒtƒ@ƒCƒ‹‚ª‚ ‚éê‡‚ÉQÆ‚ğã‘‚«‚³‚ê‚Ä‚µ‚Ü‚¤
+    //rootãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã‚’trueã«ã—ãŸæ–¹ãŒã‚ˆã„
+    //falseã ã¨è¦ªãƒ•ã‚¡ã‚¤ãƒ«ã«eslintrcãŒã‚ã‚‹ã¨å‚ç…§ã‚’å–ã‚‰ã‚Œã¦ã—ã¾ã†
     root: true,
     rules: {}
 }
