@@ -23,4 +23,3 @@
 
 // import from "./oop/shogi"
 // genericsAdvancedSample()
-
