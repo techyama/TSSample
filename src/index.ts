@@ -23,3 +23,8 @@
 
 // import from "./oop/shogi"
 // genericsAdvancedSample()
+
+// import promissSample from "./asynchronous/promise";
+import asyncAwaitSample from "./asynchronous/asyncAwait";
+
+asyncAwaitSample();
